@@ -1,0 +1,183 @@
+2024-10-22 10:14:13,496 - mon_logger - INFO - start listening on 2575 at: 22-10-2024__10-14-13.496226    destination output is: lab3_out  file-comments: default
+2024-10-22 10:17:03,432 - mon_logger - INFO - Connection established ('192.168.1.28', 55558)
+2024-10-22 10:17:03,434 - mon_logger - INFO - [process_message] processing received file:
+MSH|^~\&|HPHCIS|CH0034|CCENTER|DEDALUS|20240308092259||ADT^A08^ADT_A01|097ff161-9af4-46fd-8458-ba833c2bba49|P|2.7
+EVN||20240308092259
+PID|1||45024968^^^APC^PI||RSGKWGMMW^VANDA PIERINA|||F|||^^ASOLA^020002^46041^^N
+PV1|1|I|^BED1^ROOM1^TO3R01^INTERVEN|||||||CGEN|^^^TO3R01^^^^^SO-1^B02|||||||QUI~QUI|^^^^VN^010079|||||||||||||||||||||||||20240404||||||FakeAlt6^^^^I
+OBX|1|DT|QUI_FFINANE^Fecha/Hora Fin Anestesia^QUI||20240308
+DG1|1||FKD 6^Fake Diagnosis 6^I7
+PR1|1||FKP 6^Fake Procedure 6^I7||||||99
+2024-10-22 10:17:03,434 - mon_logger - INFO - [process_message] write received message to: lab3_out/default___22-10-2024__10-17-03.434174.txt
+2024-10-22 10:17:03,435 - mon_logger - INFO - [process_message] message parsed successfully:
+2024-10-22 10:17:03,441 - mon_logger - INFO - [process_message] processing received file:
+MSH|^~\&|HPHCIS|CH0034|CCENTER|DEDALUS|20240308091134||SIU^S14^SIU_S12|1709885494779|P|2.7|||NE|AL|ITA|ASCII
+SCH|186933^OWEB|||||NP^Nuova Pianificazione||^Normal||||||||CHIR^PERRONE^LUIGI^^^^^^^^^^^^^^^^^^^^PRRLGU63B28D969I||||CHIR^PERRONE^LUIGI^^^^^^^^^^^^^^^^^^^^PRRLGU63B28D969I|||176406^OWEB||Booked
+TQ1||||||87^min|20240308000000|20240308012700|^^^T^Programada
+PID|||45085333^^^APC^PI~TRPPQL40R57H889E^^^CF||MKGHWPFG^PASQUALINA||19401017|F|||CARROCCIO 16^^GAGGIANO^015103^20083^^L~^^SAN GIORGIO MORGETO^080071^89017^^N|||||6^NON DICHIARATO||||||||||100^ITALIA
+PD1|||MILANO1^^^^^^ASLR^^^030309
+PV1||I|^^^010079^CONFIRM^^01|0|176406^^^OWEB|||||CGEN||||||||QUI||||||||||||||||||||||||||||||||FakeAlt51^^^^I
+OBX|1|ST|LT^Lateralita||N||||||F
+OBX|2|CWE|QUI_TIPOANESTESIA^Tipo de Anestesia^QUI||99
+DG1|0||715.15^ARTROSI LOCALIZZATA PRIMARIA, ANCA^ICD9-CM|||A|||||||||1
+RGS|1|A
+AIS|1|A|81.51^SOSTITUZIONE TOTALE DELL'ANCA^ICD9-CM|20240308000000|||87|m
+AIG|0|||EV_DT^Event Date Time||||20240308091129+0100
+AIL|0|A|399^^^010079^^^01^^ORTOPEDIA^B02^WARD~40^^^010079^^^01^^SO-3^B02^ROOM~TO3R^^^^^^^^OSPEDALE GARASIO^^HDIS
+2024-10-22 10:17:03,441 - mon_logger - INFO - [process_message] write received message to: lab3_out/default___22-10-2024__10-17-03.441705.txt
+2024-10-22 10:17:03,444 - mon_logger - INFO - [process_message] message parsed successfully:
+2024-10-22 10:17:03,447 - mon_logger - INFO - [process_message] processing received file:
+MSH|^~\&|HPHCIS|HPHCIS|CCENTER|DEDALUS|20240308085430||ADT^A01^ADT_A01|7288e3b1-3437-4afa-b17b-274b0324ca24|P|2.7
+EVN||20240308085430
+PID|1||H2018000035^^^APC^PI||MARCO^MARCO|||M|||^^ROVIGO^029041^45100^^N
+PV1|1|I|^^^TO3R01||||||||^^^TO3R01^^^^^SO-1^B02|||||||QUI|PROVA123^^^^VN^010079|||||||||||||||||||||||||20240326
+2024-10-22 10:17:03,447 - mon_logger - INFO - [process_message] write received message to: lab3_out/default___22-10-2024__10-17-03.447574.txt
+2024-10-22 10:17:03,448 - mon_logger - INFO - [process_message] message parsed successfully:
+2024-10-22 10:17:03,451 - mon_logger - INFO - [process_message] processing received file:
+MSH|^~\&|HPHCIS|CH0034|CCENTER|DEDALUS|20240308092339||ADT^A09^ADT_A09|b2a6bad0-03f9-420c-8f84-9b256ec30f7d|P|2.7
+EVN||20240308092339
+PID|1||45024968^^^APC^PI||RSGKWGMMW^VANDA PIERINA|||F|||^^ASOLA^020002^46041^^N
+PV1|1|I|^^^TO3R01^REALIZAD|||||||CGEN|^^^TO3R01^^^^^SO-1^B02|||||||QUI~QUI|^^^^VN^010079|||||||||||||||||||||||||20240404||||||FakeAlt11^^^^I
+2024-10-22 10:17:03,451 - mon_logger - INFO - [process_message] write received message to: lab3_out/default___22-10-2024__10-17-03.451340.txt
+2024-10-22 10:17:03,452 - mon_logger - INFO - [process_message] message parsed successfully:
+2024-10-22 10:17:03,455 - mon_logger - INFO - [process_message] processing received file:
+MSH|^~\&|HPHCIS|CH0034|CCENTER|DEDALUS|20240308085430||ADT^A10^ADT_A09|87565b12-7da7-4b22-a727-cdee0ad1e07a|P|2.7
+EVN||20240308085430
+PID|1||H2018000035^^^APC^PI||MARCO^MARCO|||M|||^^ROVIGO^029041^45100^^N
+PV1|1|I|^^^TO3R01^PREOPERA|||||||CGEN|^^^TO3R01^^^^^SO-1^B02|||||||QUI~QUI|PROVA123^^^^VN^010079|||||||||||||||||||||||||20240404||||||PROVA123^^^^I
+AIL|1||^Room 123^^Facility321
+2024-10-22 10:17:03,455 - mon_logger - INFO - [process_message] write received message to: lab3_out/default___22-10-2024__10-17-03.455236.txt
+2024-10-22 10:17:03,456 - mon_logger - INFO - [process_message] message parsed successfully:
+2024-10-22 10:21:47,754 - mon_logger - INFO - start listening on 2575 at: 22-10-2024__10-21-47.754133    destination output is: lab3_out  file-comments: default
+2024-10-22 10:21:54,273 - mon_logger - INFO - Connection established ('192.168.1.28', 44014)
+2024-10-22 10:21:54,275 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-22 10:21:54,276 - mon_logger - INFO - [process_message] write received message to: lab3_out/default___22-10-2024__10-21-54.276111.txt
+2024-10-22 10:21:54,278 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-22 10:21:54,283 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-22 10:21:54,283 - mon_logger - INFO - [process_message] write received message to: lab3_out/default___22-10-2024__10-21-54.283598.txt
+2024-10-22 10:21:54,286 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-22 10:21:54,288 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-22 10:21:54,288 - mon_logger - INFO - [process_message] write received message to: lab3_out/default___22-10-2024__10-21-54.288294.txt
+2024-10-22 10:21:54,289 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-22 10:21:54,291 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-22 10:21:54,291 - mon_logger - INFO - [process_message] write received message to: lab3_out/default___22-10-2024__10-21-54.291307.txt
+2024-10-22 10:21:54,292 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-22 10:21:54,294 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-22 10:21:54,294 - mon_logger - INFO - [process_message] write received message to: lab3_out/default___22-10-2024__10-21-54.294457.txt
+2024-10-22 10:21:54,295 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-22 10:34:52,663 - mon_logger - INFO - start listening on 2575 at: 22-10-2024__10-34-52.662989    destination output is: lab3_out  file-comments: default
+2024-10-22 10:35:03,510 - mon_logger - INFO - start listening on 2575 at: 22-10-2024__10-35-03.510321    destination output is: lab3_out  file-comments: default
+2024-10-22 10:37:41,733 - mon_logger - INFO - start listening on 2575 at: 22-10-2024__10-37-41.733820    destination output is: lab3_out  file-comments: default
+2024-10-22 10:43:44,377 - mon_logger - INFO - start listening on 2575 at: 22-10-2024__10-43-44.377906    destination output is: lab3_out  file-comments: $CONTAINER_VAR
+2024-10-22 10:47:47,486 - mon_logger - INFO - start listening on 2575 at: 22-10-2024__10-47-47.486734    destination output is: lab3_out  file-comments:  $(date '+%Y-%m-%d %H:%M:%S')
+2024-10-22 10:48:54,559 - mon_logger - INFO - start listening on 2575 at: 22-10-2024__10-48-54.559411    destination output is: lab3_out  file-comments:  $(date '+%Y-%m-%d %H:%M:%S')
+2024-10-22 11:02:52,647 - mon_logger - INFO - start listening on 2575 at: 22-10-2024__11-02-52.647893    destination output is: lab3_out  file-comments: ingest__22-10-2024__11-02-52.647893
+2024-10-22 11:03:05,715 - mon_logger - INFO - Connection established ('192.168.1.28', 49000)
+2024-10-22 11:03:05,717 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-22 11:03:05,717 - mon_logger - INFO - [process_message] write received message to: lab3_out/ingest__22-10-2024__11-02-52.647893___22-10-2024__11-03-05.717535.txt
+2024-10-22 11:03:05,719 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-22 11:03:05,724 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-22 11:03:05,725 - mon_logger - INFO - [process_message] write received message to: lab3_out/ingest__22-10-2024__11-02-52.647893___22-10-2024__11-03-05.724993.txt
+2024-10-22 11:03:05,728 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-22 11:03:05,730 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-22 11:03:05,730 - mon_logger - INFO - [process_message] write received message to: lab3_out/ingest__22-10-2024__11-02-52.647893___22-10-2024__11-03-05.730897.txt
+2024-10-22 11:03:05,732 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-22 11:03:05,734 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-22 11:03:05,734 - mon_logger - INFO - [process_message] write received message to: lab3_out/ingest__22-10-2024__11-02-52.647893___22-10-2024__11-03-05.734588.txt
+2024-10-22 11:03:05,735 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-22 11:03:05,738 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-22 11:03:05,738 - mon_logger - INFO - [process_message] write received message to: lab3_out/ingest__22-10-2024__11-02-52.647893___22-10-2024__11-03-05.738441.txt
+2024-10-22 11:03:05,739 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-22 11:07:47,777 - mon_logger - INFO - start listening on 2575 at: 22-10-2024_11:07:47.777552    destination output is: lab3_out  file-comments: ingest:22-10-2024
+2024-10-22 11:07:53,488 - mon_logger - INFO - Connection established ('192.168.1.28', 52110)
+2024-10-22 11:07:53,490 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-22 11:07:53,490 - mon_logger - INFO - [process_message] write received message to: lab3_out/ingest:22-10-2024___22-10-2024__11-07-53.490914.txt
+2024-10-22 11:07:53,493 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-22 11:07:53,503 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-22 11:07:53,503 - mon_logger - INFO - [process_message] write received message to: lab3_out/ingest:22-10-2024___22-10-2024__11-07-53.503639.txt
+2024-10-22 11:07:53,509 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-22 11:07:53,513 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-22 11:07:53,513 - mon_logger - INFO - [process_message] write received message to: lab3_out/ingest:22-10-2024___22-10-2024__11-07-53.513864.txt
+2024-10-22 11:07:53,515 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-22 11:07:53,520 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-22 11:07:53,520 - mon_logger - INFO - [process_message] write received message to: lab3_out/ingest:22-10-2024___22-10-2024__11-07-53.520198.txt
+2024-10-22 11:07:53,522 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-22 11:07:53,528 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-22 11:07:53,528 - mon_logger - INFO - [process_message] write received message to: lab3_out/ingest:22-10-2024___22-10-2024__11-07-53.528559.txt
+2024-10-22 11:07:53,529 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-22 11:09:22,281 - mon_logger - INFO - start listening on 2575 at: 22-10-2024_11:09:22.281068    destination output is: lab3_out  file-comments: ingest:22-10-2024
+2024-10-22 11:09:31,019 - mon_logger - INFO - Connection established ('192.168.1.28', 56658)
+2024-10-22 11:09:31,021 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-22 11:09:31,021 - mon_logger - INFO - [process_message] write received message to: lab3_out/ingest:22-10-2024___22-10-2024_11:09:31.021722.txt
+2024-10-22 11:09:31,023 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-22 11:09:31,027 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-22 11:09:31,027 - mon_logger - INFO - [process_message] write received message to: lab3_out/ingest:22-10-2024___22-10-2024_11:09:31.027505.txt
+2024-10-22 11:09:31,029 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-22 11:09:31,032 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-22 11:09:31,032 - mon_logger - INFO - [process_message] write received message to: lab3_out/ingest:22-10-2024___22-10-2024_11:09:31.032114.txt
+2024-10-22 11:09:31,032 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-22 11:09:31,034 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-22 11:09:31,034 - mon_logger - INFO - [process_message] write received message to: lab3_out/ingest:22-10-2024___22-10-2024_11:09:31.034958.txt
+2024-10-22 11:09:31,035 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-22 11:09:31,037 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-22 11:09:31,037 - mon_logger - INFO - [process_message] write received message to: lab3_out/ingest:22-10-2024___22-10-2024_11:09:31.037956.txt
+2024-10-22 11:09:31,038 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-22 12:44:28,565 - mon_logger - INFO - start listening on 2575 at: 22-10-2024_12:44:28.565800    destination output is: lab3_out  file-comments: ingest:22-10-2024
+2024-10-22 12:45:43,084 - mon_logger - INFO - start listening on 2575 at: 22-10-2024_12:45:43.084867    destination output is: lab3_out  file-comments: default
+2024-10-22 12:46:38,192 - mon_logger - INFO - start listening on 2575 at: 22-10-2024_12:46:38.192937    destination output is: lab3_out  file-comments: default
+2024-10-22 12:49:25,899 - mon_logger - INFO - start listening on 2575 at: 22-10-2024_12:49:25.899910    destination output is: lab3_out  file-comments: Hello
+2024-10-22 13:20:28,682 - mon_logger - INFO - start listening on 2575 at: 22-10-2024_13:20:28.682242    destination output is: lab3_out  file-comments: Hello
+2024-10-22 13:21:46,787 - mon_logger - INFO - start listening on 2575 at: 22-10-2024_13:21:46.787664    destination output is: lab3_out  file-comments: Hello
+2024-10-22 13:23:29,691 - mon_logger - INFO - start listening on 2575 at: 22-10-2024_13:23:29.691532    destination output is: lab3_out  file-comments: ingest:22-10-2024
+2024-10-22 13:24:53,107 - mon_logger - INFO - Connection established ('192.168.1.24', 44478)
+2024-10-22 13:24:53,110 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-22 13:24:53,110 - mon_logger - INFO - [process_message] write received message to: lab3_out/ingest:22-10-2024___22-10-2024_13:24:53.110521.txt
+2024-10-22 13:24:53,112 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-22 13:24:53,119 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-22 13:24:53,119 - mon_logger - INFO - [process_message] write received message to: lab3_out/ingest:22-10-2024___22-10-2024_13:24:53.119207.txt
+2024-10-22 13:24:53,124 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-22 13:24:53,129 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-22 13:24:53,129 - mon_logger - INFO - [process_message] write received message to: lab3_out/ingest:22-10-2024___22-10-2024_13:24:53.129611.txt
+2024-10-22 13:24:53,131 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-22 13:24:53,136 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-22 13:24:53,136 - mon_logger - INFO - [process_message] write received message to: lab3_out/ingest:22-10-2024___22-10-2024_13:24:53.136233.txt
+2024-10-22 13:24:53,138 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-22 13:24:53,142 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-22 13:24:53,142 - mon_logger - INFO - [process_message] write received message to: lab3_out/ingest:22-10-2024___22-10-2024_13:24:53.142898.txt
+2024-10-22 13:24:53,145 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-22 15:13:51,223 - mon_logger - INFO - start listening on 2575 at: 22-10-2024_15:13:51.223092    destination output is: lab3_out  file-comments: Totu
+2024-10-22 15:14:28,428 - mon_logger - INFO - start listening on 2575 at: 22-10-2024_15:14:28.428801    destination output is: lab3_out  file-comments: Tertrrtret
+2024-10-23 08:59:27,007 - mon_logger - INFO - start listening on 2575 at: 23-10-2024_08:59:27.007743    destination output is: lab3_out_test  file-comments: Tertrrtret
+2024-10-23 09:02:18,037 - mon_logger - INFO - Connection established ('192.168.208.20', 55834)
+2024-10-23 09:02:18,042 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-23 09:02:18,042 - mon_logger - INFO - [process_message] write received message to: lab3_out_test/Tertrrtret___23-10-2024_09:02:18.042143.txt
+2024-10-23 09:02:18,043 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-23 09:02:18,048 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-23 09:02:18,048 - mon_logger - INFO - [process_message] write received message to: lab3_out_test/Tertrrtret___23-10-2024_09:02:18.048587.txt
+2024-10-23 09:02:18,051 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-23 09:02:18,054 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-23 09:02:18,054 - mon_logger - INFO - [process_message] write received message to: lab3_out_test/Tertrrtret___23-10-2024_09:02:18.054342.txt
+2024-10-23 09:02:18,055 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-23 09:02:18,057 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-23 09:02:18,057 - mon_logger - INFO - [process_message] write received message to: lab3_out_test/Tertrrtret___23-10-2024_09:02:18.057845.txt
+2024-10-23 09:02:18,058 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-23 09:02:18,061 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-23 09:02:18,061 - mon_logger - INFO - [process_message] write received message to: lab3_out_test/Tertrrtret___23-10-2024_09:02:18.061483.txt
+2024-10-23 09:02:18,062 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-23 09:03:54,257 - mon_logger - INFO - start listening on 2575 at: 23-10-2024_09:03:54.257589    destination output is: lab3_out_test  file-comments: Tertrrtret
+2024-10-23 09:04:43,403 - mon_logger - INFO - Connection established ('192.168.208.20', 41460)
+2024-10-23 09:04:43,405 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-23 09:04:43,405 - mon_logger - INFO - [process_message] write received message to: lab3_out_test/Tertrrtret___23-10-2024_09:04:43.405922.txt
+2024-10-23 09:04:43,407 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-23 09:04:43,411 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-23 09:04:43,411 - mon_logger - INFO - [process_message] write received message to: lab3_out_test/Tertrrtret___23-10-2024_09:04:43.411728.txt
+2024-10-23 09:04:43,414 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-23 09:04:43,416 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-23 09:04:43,416 - mon_logger - INFO - [process_message] write received message to: lab3_out_test/Tertrrtret___23-10-2024_09:04:43.416666.txt
+2024-10-23 09:04:43,417 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-23 09:04:43,419 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-23 09:04:43,419 - mon_logger - INFO - [process_message] write received message to: lab3_out_test/Tertrrtret___23-10-2024_09:04:43.419734.txt
+2024-10-23 09:04:43,420 - mon_logger - INFO - [process_message] message parsed successfully
+2024-10-23 09:04:43,422 - mon_logger - INFO - [process_message] processing a new received file
+2024-10-23 09:04:43,422 - mon_logger - INFO - [process_message] write received message to: lab3_out_test/Tertrrtret___23-10-2024_09:04:43.422905.txt
+2024-10-23 09:04:43,423 - mon_logger - INFO - [process_message] message parsed successfully

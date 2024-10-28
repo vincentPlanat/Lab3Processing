@@ -1,0 +1,11 @@
+version: '3'
+services:
+  server-mllp:
+    image: test-server-mllp  # Remplacez par le nom de l'image que vous voulez utiliser
+    env_file:
+      - .env
+    ports:
+      - "10410:2575"
+    volumes:
+      - "./mllp:/app"
+    restart: unless-stopped

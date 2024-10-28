@@ -1,0 +1,185 @@
+2024-10-15 17:13:37,790 - mon_logger - INFO - start listening on 2575 at: 15-10-2024__17-13-37.790639    destination output is: lab3_out
+2024-10-15 17:14:42,095 - mon_logger - INFO - start listening on 3000 at: 15-10-2024__17-14-42.095525    destination output is: lab3_out
+2024-10-15 17:14:45,824 - mon_logger - INFO - Connection established ('192.168.0.105', 36690)
+2024-10-15 17:14:45,826 - mon_logger - INFO - [process_message] processing received file:
+MSH|^~\&|HPHCIS|CH0034|CCENTER|DEDALUS|20240308092259||ADT^A08^ADT_A01|097ff161-9af4-46fd-8458-ba833c2bba49|P|2.7
+EVN||20240308092259
+PID|1||45024968^^^APC^PI||RSGKWGMMW^VANDA PIERINA|||F|||^^ASOLA^020002^46041^^N
+PV1|1|I|^BED1^ROOM1^TO3R01^INTERVEN|||||||CGEN|^^^TO3R01^^^^^SO-1^B02|||||||QUI~QUI|^^^^VN^010079|||||||||||||||||||||||||20240404||||||FakeAlt6^^^^I
+OBX|1|DT|QUI_FFINANE^Fecha/Hora Fin Anestesia^QUI||20240308
+DG1|1||FKD 6^Fake Diagnosis 6^I7
+PR1|1||FKP 6^Fake Procedure 6^I7||||||99
+2024-10-15 17:14:45,826 - mon_logger - INFO - [process_message] write received message to: lab3_out/lab3-hexalis 15-10-2024__17-14-45.826753.txt
+2024-10-15 17:14:45,835 - mon_logger - INFO - [process_message] processing received file:
+MSH|^~\&|HPHCIS|CH0034|CCENTER|DEDALUS|20240308091134||SIU^S14^SIU_S12|1709885494779|P|2.7|||NE|AL|ITA|ASCII
+SCH|186933^OWEB|||||NP^Nuova Pianificazione||^Normal||||||||CHIR^PERRONE^LUIGI^^^^^^^^^^^^^^^^^^^^PRRLGU63B28D969I||||CHIR^PERRONE^LUIGI^^^^^^^^^^^^^^^^^^^^PRRLGU63B28D969I|||176406^OWEB||Booked
+TQ1||||||87^min|20240308000000|20240308012700|^^^T^Programada
+PID|||45085333^^^APC^PI~TRPPQL40R57H889E^^^CF||MKGHWPFG^PASQUALINA||19401017|F|||CARROCCIO 16^^GAGGIANO^015103^20083^^L~^^SAN GIORGIO MORGETO^080071^89017^^N|||||6^NON DICHIARATO||||||||||100^ITALIA
+PD1|||MILANO1^^^^^^ASLR^^^030309
+PV1||I|^^^010079^CONFIRM^^01|0|176406^^^OWEB|||||CGEN||||||||QUI||||||||||||||||||||||||||||||||FakeAlt51^^^^I
+OBX|1|ST|LT^Lateralita||N||||||F
+OBX|2|CWE|QUI_TIPOANESTESIA^Tipo de Anestesia^QUI||99
+DG1|0||715.15^ARTROSI LOCALIZZATA PRIMARIA, ANCA^ICD9-CM|||A|||||||||1
+RGS|1|A
+AIS|1|A|81.51^SOSTITUZIONE TOTALE DELL'ANCA^ICD9-CM|20240308000000|||87|m
+AIG|0|||EV_DT^Event Date Time||||20240308091129+0100
+AIL|0|A|399^^^010079^^^01^^ORTOPEDIA^B02^WARD~40^^^010079^^^01^^SO-3^B02^ROOM~TO3R^^^^^^^^OSPEDALE GARASIO^^HDIS
+2024-10-15 17:14:45,835 - mon_logger - INFO - [process_message] write received message to: lab3_out/lab3-hexalis 15-10-2024__17-14-45.835343.txt
+2024-10-15 17:14:45,839 - mon_logger - INFO - [process_message] processing received file:
+MSH|^~\&|HPHCIS|HPHCIS|CCENTER|DEDALUS|20240308085430||ADT^A01^ADT_A01|7288e3b1-3437-4afa-b17b-274b0324ca24|P|2.7
+EVN||20240308085430
+PID|1||H2018000035^^^APC^PI||MARCO^MARCO|||M|||^^ROVIGO^029041^45100^^N
+PV1|1|I|^^^TO3R01||||||||^^^TO3R01^^^^^SO-1^B02|||||||QUI|PROVA123^^^^VN^010079|||||||||||||||||||||||||20240326
+2024-10-15 17:14:45,839 - mon_logger - INFO - [process_message] write received message to: lab3_out/lab3-hexalis 15-10-2024__17-14-45.839881.txt
+2024-10-15 17:14:45,842 - mon_logger - INFO - [process_message] processing received file:
+MSH|^~\&|HPHCIS|CH0034|CCENTER|DEDALUS|20240308092339||ADT^A09^ADT_A09|b2a6bad0-03f9-420c-8f84-9b256ec30f7d|P|2.7
+EVN||20240308092339
+PID|1||45024968^^^APC^PI||RSGKWGMMW^VANDA PIERINA|||F|||^^ASOLA^020002^46041^^N
+PV1|1|I|^^^TO3R01^REALIZAD|||||||CGEN|^^^TO3R01^^^^^SO-1^B02|||||||QUI~QUI|^^^^VN^010079|||||||||||||||||||||||||20240404||||||FakeAlt11^^^^I
+2024-10-15 17:14:45,843 - mon_logger - INFO - [process_message] write received message to: lab3_out/lab3-hexalis 15-10-2024__17-14-45.842974.txt
+2024-10-15 17:14:45,846 - mon_logger - INFO - [process_message] processing received file:
+MSH|^~\&|HPHCIS|CH0034|CCENTER|DEDALUS|20240308085430||ADT^A10^ADT_A09|87565b12-7da7-4b22-a727-cdee0ad1e07a|P|2.7
+EVN||20240308085430
+PID|1||H2018000035^^^APC^PI||MARCO^MARCO|||M|||^^ROVIGO^029041^45100^^N
+PV1|1|I|^^^TO3R01^PREOPERA|||||||CGEN|^^^TO3R01^^^^^SO-1^B02|||||||QUI~QUI|PROVA123^^^^VN^010079|||||||||||||||||||||||||20240404||||||PROVA123^^^^I
+AIL|1||^Room 123^^Facility321
+2024-10-15 17:14:45,846 - mon_logger - INFO - [process_message] write received message to: lab3_out/lab3-hexalis 15-10-2024__17-14-45.846225.txt
+2024-10-15 17:18:23,258 - mon_logger - INFO - start listening on 3000 at: 15-10-2024__17-18-23.258867    destination output is: lab3_out
+2024-10-15 17:18:28,097 - mon_logger - INFO - Connection established ('192.168.0.105', 32776)
+2024-10-15 17:18:28,099 - mon_logger - INFO - [process_message] processing received file:
+MSH|^~\&|HPHCIS|CH0034|CCENTER|DEDALUS|20240308092259||ADT^A08^ADT_A01|097ff161-9af4-46fd-8458-ba833c2bba49|P|2.7
+EVN||20240308092259
+PID|1||45024968^^^APC^PI||RSGKWGMMW^VANDA PIERINA|||F|||^^ASOLA^020002^46041^^N
+PV1|1|I|^BED1^ROOM1^TO3R01^INTERVEN|||||||CGEN|^^^TO3R01^^^^^SO-1^B02|||||||QUI~QUI|^^^^VN^010079|||||||||||||||||||||||||20240404||||||FakeAlt6^^^^I
+OBX|1|DT|QUI_FFINANE^Fecha/Hora Fin Anestesia^QUI||20240308
+DG1|1||FKD 6^Fake Diagnosis 6^I7
+PR1|1||FKP 6^Fake Procedure 6^I7||||||99
+2024-10-15 17:18:28,099 - mon_logger - INFO - [process_message] write received message to: lab3_out/lab3-hexalis 15-10-2024__17-18-28.099890.txt
+2024-10-15 17:18:28,105 - mon_logger - INFO - [process_message] processing received file:
+MSH|^~\&|HPHCIS|CH0034|CCENTER|DEDALUS|20240308091134||SIU^S14^SIU_S12|1709885494779|P|2.7|||NE|AL|ITA|ASCII
+SCH|186933^OWEB|||||NP^Nuova Pianificazione||^Normal||||||||CHIR^PERRONE^LUIGI^^^^^^^^^^^^^^^^^^^^PRRLGU63B28D969I||||CHIR^PERRONE^LUIGI^^^^^^^^^^^^^^^^^^^^PRRLGU63B28D969I|||176406^OWEB||Booked
+TQ1||||||87^min|20240308000000|20240308012700|^^^T^Programada
+PID|||45085333^^^APC^PI~TRPPQL40R57H889E^^^CF||MKGHWPFG^PASQUALINA||19401017|F|||CARROCCIO 16^^GAGGIANO^015103^20083^^L~^^SAN GIORGIO MORGETO^080071^89017^^N|||||6^NON DICHIARATO||||||||||100^ITALIA
+PD1|||MILANO1^^^^^^ASLR^^^030309
+PV1||I|^^^010079^CONFIRM^^01|0|176406^^^OWEB|||||CGEN||||||||QUI||||||||||||||||||||||||||||||||FakeAlt51^^^^I
+OBX|1|ST|LT^Lateralita||N||||||F
+OBX|2|CWE|QUI_TIPOANESTESIA^Tipo de Anestesia^QUI||99
+DG1|0||715.15^ARTROSI LOCALIZZATA PRIMARIA, ANCA^ICD9-CM|||A|||||||||1
+RGS|1|A
+AIS|1|A|81.51^SOSTITUZIONE TOTALE DELL'ANCA^ICD9-CM|20240308000000|||87|m
+AIG|0|||EV_DT^Event Date Time||||20240308091129+0100
+AIL|0|A|399^^^010079^^^01^^ORTOPEDIA^B02^WARD~40^^^010079^^^01^^SO-3^B02^ROOM~TO3R^^^^^^^^OSPEDALE GARASIO^^HDIS
+2024-10-15 17:18:28,106 - mon_logger - INFO - [process_message] write received message to: lab3_out/lab3-hexalis 15-10-2024__17-18-28.106153.txt
+2024-10-15 17:18:28,110 - mon_logger - INFO - [process_message] processing received file:
+MSH|^~\&|HPHCIS|HPHCIS|CCENTER|DEDALUS|20240308085430||ADT^A01^ADT_A01|7288e3b1-3437-4afa-b17b-274b0324ca24|P|2.7
+EVN||20240308085430
+PID|1||H2018000035^^^APC^PI||MARCO^MARCO|||M|||^^ROVIGO^029041^45100^^N
+PV1|1|I|^^^TO3R01||||||||^^^TO3R01^^^^^SO-1^B02|||||||QUI|PROVA123^^^^VN^010079|||||||||||||||||||||||||20240326
+2024-10-15 17:18:28,110 - mon_logger - INFO - [process_message] write received message to: lab3_out/lab3-hexalis 15-10-2024__17-18-28.110639.txt
+2024-10-15 17:18:28,113 - mon_logger - INFO - [process_message] processing received file:
+MSH|^~\&|HPHCIS|CH0034|CCENTER|DEDALUS|20240308092339||ADT^A09^ADT_A09|b2a6bad0-03f9-420c-8f84-9b256ec30f7d|P|2.7
+EVN||20240308092339
+PID|1||45024968^^^APC^PI||RSGKWGMMW^VANDA PIERINA|||F|||^^ASOLA^020002^46041^^N
+PV1|1|I|^^^TO3R01^REALIZAD|||||||CGEN|^^^TO3R01^^^^^SO-1^B02|||||||QUI~QUI|^^^^VN^010079|||||||||||||||||||||||||20240404||||||FakeAlt11^^^^I
+2024-10-15 17:18:28,113 - mon_logger - INFO - [process_message] write received message to: lab3_out/lab3-hexalis 15-10-2024__17-18-28.113283.txt
+2024-10-15 17:18:28,115 - mon_logger - INFO - [process_message] processing received file:
+MSH|^~\&|HPHCIS|CH0034|CCENTER|DEDALUS|20240308085430||ADT^A10^ADT_A09|87565b12-7da7-4b22-a727-cdee0ad1e07a|P|2.7
+EVN||20240308085430
+PID|1||H2018000035^^^APC^PI||MARCO^MARCO|||M|||^^ROVIGO^029041^45100^^N
+PV1|1|I|^^^TO3R01^PREOPERA|||||||CGEN|^^^TO3R01^^^^^SO-1^B02|||||||QUI~QUI|PROVA123^^^^VN^010079|||||||||||||||||||||||||20240404||||||PROVA123^^^^I
+AIL|1||^Room 123^^Facility321
+2024-10-15 17:18:28,115 - mon_logger - INFO - [process_message] write received message to: lab3_out/lab3-hexalis 15-10-2024__17-18-28.115977.txt
+2024-10-18 21:05:43,399 - mon_logger - INFO - start listening on 4000 at: 18-10-2024__21-05-43.399134    destination output is: test_1
+2024-10-18 21:06:09,525 - mon_logger - INFO - Connection established ('127.0.0.1', 47032)
+2024-10-18 21:06:09,570 - mon_logger - INFO - [process_message] processing received file:
+MSH|^~\&|HPHCIS|CH0034|CCENTER|DEDALUS|20240308092259||ADT^A08^ADT_A01|097ff161-9af4-46fd-8458-ba833c2bba49|P|2.7
+EVN||20240308092259
+PID|1||45024968^^^APC^PI||RSGKWGMMW^VANDA PIERINA|||F|||^^ASOLA^020002^46041^^N
+PV1|1|I|^BED1^ROOM1^TO3R01^INTERVEN|||||||CGEN|^^^TO3R01^^^^^SO-1^B02|||||||QUI~QUI|^^^^VN^010079|||||||||||||||||||||||||20240404||||||FakeAlt6^^^^I
+OBX|1|DT|QUI_FFINANE^Fecha/Hora Fin Anestesia^QUI||20240308
+DG1|1||FKD 6^Fake Diagnosis 6^I7
+PR1|1||FKP 6^Fake Procedure 6^I7||||||99
+2024-10-18 21:06:09,570 - mon_logger - INFO - [process_message] write received message to: test_1/comment1___18-10-2024__21-06-09.570639.txt
+2024-10-18 21:06:09,599 - mon_logger - INFO - [process_message] processing received file:
+MSH|^~\&|HPHCIS|CH0034|CCENTER|DEDALUS|20240308091134||SIU^S14^SIU_S12|1709885494779|P|2.7|||NE|AL|ITA|ASCII
+SCH|186933^OWEB|||||NP^Nuova Pianificazione||^Normal||||||||CHIR^PERRONE^LUIGI^^^^^^^^^^^^^^^^^^^^PRRLGU63B28D969I||||CHIR^PERRONE^LUIGI^^^^^^^^^^^^^^^^^^^^PRRLGU63B28D969I|||176406^OWEB||Booked
+TQ1||||||87^min|20240308000000|20240308012700|^^^T^Programada
+PID|||45085333^^^APC^PI~TRPPQL40R57H889E^^^CF||MKGHWPFG^PASQUALINA||19401017|F|||CARROCCIO 16^^GAGGIANO^015103^20083^^L~^^SAN GIORGIO MORGETO^080071^89017^^N|||||6^NON DICHIARATO||||||||||100^ITALIA
+PD1|||MILANO1^^^^^^ASLR^^^030309
+PV1||I|^^^010079^CONFIRM^^01|0|176406^^^OWEB|||||CGEN||||||||QUI||||||||||||||||||||||||||||||||FakeAlt51^^^^I
+OBX|1|ST|LT^Lateralita||N||||||F
+OBX|2|CWE|QUI_TIPOANESTESIA^Tipo de Anestesia^QUI||99
+DG1|0||715.15^ARTROSI LOCALIZZATA PRIMARIA, ANCA^ICD9-CM|||A|||||||||1
+RGS|1|A
+AIS|1|A|81.51^SOSTITUZIONE TOTALE DELL'ANCA^ICD9-CM|20240308000000|||87|m
+AIG|0|||EV_DT^Event Date Time||||20240308091129+0100
+AIL|0|A|399^^^010079^^^01^^ORTOPEDIA^B02^WARD~40^^^010079^^^01^^SO-3^B02^ROOM~TO3R^^^^^^^^OSPEDALE GARASIO^^HDIS
+2024-10-18 21:06:09,599 - mon_logger - INFO - [process_message] write received message to: test_1/comment1___18-10-2024__21-06-09.599234.txt
+2024-10-18 21:06:09,606 - mon_logger - INFO - [process_message] processing received file:
+MSH|^~\&|HPHCIS|HPHCIS|CCENTER|DEDALUS|20240308085430||ADT^A01^ADT_A01|7288e3b1-3437-4afa-b17b-274b0324ca24|P|2.7
+EVN||20240308085430
+PID|1||H2018000035^^^APC^PI||MARCO^MARCO|||M|||^^ROVIGO^029041^45100^^N
+PV1|1|I|^^^TO3R01||||||||^^^TO3R01^^^^^SO-1^B02|||||||QUI|PROVA123^^^^VN^010079|||||||||||||||||||||||||20240326
+2024-10-18 21:06:09,606 - mon_logger - INFO - [process_message] write received message to: test_1/comment1___18-10-2024__21-06-09.606902.txt
+2024-10-18 21:06:09,612 - mon_logger - INFO - [process_message] processing received file:
+MSH|^~\&|HPHCIS|CH0034|CCENTER|DEDALUS|20240308092339||ADT^A09^ADT_A09|b2a6bad0-03f9-420c-8f84-9b256ec30f7d|P|2.7
+EVN||20240308092339
+PID|1||45024968^^^APC^PI||RSGKWGMMW^VANDA PIERINA|||F|||^^ASOLA^020002^46041^^N
+PV1|1|I|^^^TO3R01^REALIZAD|||||||CGEN|^^^TO3R01^^^^^SO-1^B02|||||||QUI~QUI|^^^^VN^010079|||||||||||||||||||||||||20240404||||||FakeAlt11^^^^I
+2024-10-18 21:06:09,612 - mon_logger - INFO - [process_message] write received message to: test_1/comment1___18-10-2024__21-06-09.612234.txt
+2024-10-18 21:06:09,617 - mon_logger - INFO - [process_message] processing received file:
+MSH|^~\&|HPHCIS|CH0034|CCENTER|DEDALUS|20240308085430||ADT^A10^ADT_A09|87565b12-7da7-4b22-a727-cdee0ad1e07a|P|2.7
+EVN||20240308085430
+PID|1||H2018000035^^^APC^PI||MARCO^MARCO|||M|||^^ROVIGO^029041^45100^^N
+PV1|1|I|^^^TO3R01^PREOPERA|||||||CGEN|^^^TO3R01^^^^^SO-1^B02|||||||QUI~QUI|PROVA123^^^^VN^010079|||||||||||||||||||||||||20240404||||||PROVA123^^^^I
+AIL|1||^Room 123^^Facility321
+2024-10-18 21:06:09,617 - mon_logger - INFO - [process_message] write received message to: test_1/comment1___18-10-2024__21-06-09.617612.txt
+2024-10-18 21:20:04,396 - mon_logger - INFO - start listening on 2575 at: 18-10-2024__21-20-04.396797    destination output is: lab3_out
+2024-10-18 21:21:06,017 - mon_logger - INFO - start listening on 2575 at: 18-10-2024__21-21-06.016918    destination output is: lab3_out  file-comments: default
+2024-10-18 21:24:19,445 - mon_logger - INFO - start listening on 2575 at: 18-10-2024__21-24-19.445095    destination output is: lab3_out  file-comments: default
+2024-10-18 21:24:19,446 - mon_logger - ERROR - Error occurred in main
+2024-10-18 21:26:22,604 - mon_logger - INFO - Connection established ('192.168.129.20', 41682)
+2024-10-18 21:26:22,605 - mon_logger - INFO - [process_message] processing received file:
+MSH|^~\&|HPHCIS|CH0034|CCENTER|DEDALUS|20240308092259||ADT^A08^ADT_A01|097ff161-9af4-46fd-8458-ba833c2bba49|P|2.7
+EVN||20240308092259
+PID|1||45024968^^^APC^PI||RSGKWGMMW^VANDA PIERINA|||F|||^^ASOLA^020002^46041^^N
+PV1|1|I|^BED1^ROOM1^TO3R01^INTERVEN|||||||CGEN|^^^TO3R01^^^^^SO-1^B02|||||||QUI~QUI|^^^^VN^010079|||||||||||||||||||||||||20240404||||||FakeAlt6^^^^I
+OBX|1|DT|QUI_FFINANE^Fecha/Hora Fin Anestesia^QUI||20240308
+DG1|1||FKD 6^Fake Diagnosis 6^I7
+PR1|1||FKP 6^Fake Procedure 6^I7||||||99
+2024-10-18 21:26:22,606 - mon_logger - INFO - [process_message] write received message to: lab3_out/default___18-10-2024__21-26-22.606300.txt
+2024-10-18 21:26:22,612 - mon_logger - INFO - [process_message] processing received file:
+MSH|^~\&|HPHCIS|CH0034|CCENTER|DEDALUS|20240308091134||SIU^S14^SIU_S12|1709885494779|P|2.7|||NE|AL|ITA|ASCII
+SCH|186933^OWEB|||||NP^Nuova Pianificazione||^Normal||||||||CHIR^PERRONE^LUIGI^^^^^^^^^^^^^^^^^^^^PRRLGU63B28D969I||||CHIR^PERRONE^LUIGI^^^^^^^^^^^^^^^^^^^^PRRLGU63B28D969I|||176406^OWEB||Booked
+TQ1||||||87^min|20240308000000|20240308012700|^^^T^Programada
+PID|||45085333^^^APC^PI~TRPPQL40R57H889E^^^CF||MKGHWPFG^PASQUALINA||19401017|F|||CARROCCIO 16^^GAGGIANO^015103^20083^^L~^^SAN GIORGIO MORGETO^080071^89017^^N|||||6^NON DICHIARATO||||||||||100^ITALIA
+PD1|||MILANO1^^^^^^ASLR^^^030309
+PV1||I|^^^010079^CONFIRM^^01|0|176406^^^OWEB|||||CGEN||||||||QUI||||||||||||||||||||||||||||||||FakeAlt51^^^^I
+OBX|1|ST|LT^Lateralita||N||||||F
+OBX|2|CWE|QUI_TIPOANESTESIA^Tipo de Anestesia^QUI||99
+DG1|0||715.15^ARTROSI LOCALIZZATA PRIMARIA, ANCA^ICD9-CM|||A|||||||||1
+RGS|1|A
+AIS|1|A|81.51^SOSTITUZIONE TOTALE DELL'ANCA^ICD9-CM|20240308000000|||87|m
+AIG|0|||EV_DT^Event Date Time||||20240308091129+0100
+AIL|0|A|399^^^010079^^^01^^ORTOPEDIA^B02^WARD~40^^^010079^^^01^^SO-3^B02^ROOM~TO3R^^^^^^^^OSPEDALE GARASIO^^HDIS
+2024-10-18 21:26:22,613 - mon_logger - INFO - [process_message] write received message to: lab3_out/default___18-10-2024__21-26-22.613157.txt
+2024-10-18 21:26:22,617 - mon_logger - INFO - [process_message] processing received file:
+MSH|^~\&|HPHCIS|HPHCIS|CCENTER|DEDALUS|20240308085430||ADT^A01^ADT_A01|7288e3b1-3437-4afa-b17b-274b0324ca24|P|2.7
+EVN||20240308085430
+PID|1||H2018000035^^^APC^PI||MARCO^MARCO|||M|||^^ROVIGO^029041^45100^^N
+PV1|1|I|^^^TO3R01||||||||^^^TO3R01^^^^^SO-1^B02|||||||QUI|PROVA123^^^^VN^010079|||||||||||||||||||||||||20240326
+2024-10-18 21:26:22,617 - mon_logger - INFO - [process_message] write received message to: lab3_out/default___18-10-2024__21-26-22.617908.txt
+2024-10-18 21:26:22,620 - mon_logger - INFO - [process_message] processing received file:
+MSH|^~\&|HPHCIS|CH0034|CCENTER|DEDALUS|20240308092339||ADT^A09^ADT_A09|b2a6bad0-03f9-420c-8f84-9b256ec30f7d|P|2.7
+EVN||20240308092339
+PID|1||45024968^^^APC^PI||RSGKWGMMW^VANDA PIERINA|||F|||^^ASOLA^020002^46041^^N
+PV1|1|I|^^^TO3R01^REALIZAD|||||||CGEN|^^^TO3R01^^^^^SO-1^B02|||||||QUI~QUI|^^^^VN^010079|||||||||||||||||||||||||20240404||||||FakeAlt11^^^^I
+2024-10-18 21:26:22,621 - mon_logger - INFO - [process_message] write received message to: lab3_out/default___18-10-2024__21-26-22.621115.txt
+2024-10-18 21:26:22,623 - mon_logger - INFO - [process_message] processing received file:
+MSH|^~\&|HPHCIS|CH0034|CCENTER|DEDALUS|20240308085430||ADT^A10^ADT_A09|87565b12-7da7-4b22-a727-cdee0ad1e07a|P|2.7
+EVN||20240308085430
+PID|1||H2018000035^^^APC^PI||MARCO^MARCO|||M|||^^ROVIGO^029041^45100^^N
+PV1|1|I|^^^TO3R01^PREOPERA|||||||CGEN|^^^TO3R01^^^^^SO-1^B02|||||||QUI~QUI|PROVA123^^^^VN^010079|||||||||||||||||||||||||20240404||||||PROVA123^^^^I
+AIL|1||^Room 123^^Facility321
+2024-10-18 21:26:22,624 - mon_logger - INFO - [process_message] write received message to: lab3_out/default___18-10-2024__21-26-22.624038.txt
+2024-10-21 16:33:35,566 - mon_logger - INFO - start listening on 2575 at: 21-10-2024__16-33-35.566361    destination output is: lab3_out  file-comments: default
