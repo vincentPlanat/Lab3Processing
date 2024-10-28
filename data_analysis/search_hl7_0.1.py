@@ -33,7 +33,6 @@ def find_interruptions(numbers,threshold=1):
 
     return interruptions
 
-
 def extract_asset(source_path):
     target_dataset =[]   
     format_string = "%d-%m-%Y_%H:%M:%S.%f"
@@ -56,6 +55,8 @@ def extract_asset(source_path):
         dt_object_ms = int(dt_object.timestamp() * 1000)
         dt_object_prev_ms = int(dt_object_prev.timestamp() * 1000)
         delta_ms = dt_object_ms - dt_object_prev_ms
+
+        # Parse the HL7 message & build statistics 
         lines = open(file_path, encoding="utf8", errors='ignore').readlines()
         msg = '\r'.join(lines)
         try:
