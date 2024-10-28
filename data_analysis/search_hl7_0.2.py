@@ -33,8 +33,8 @@ def find_interruptions(numbers,threshold=1):
 
     return interruptions
 
-def extract_asset(source_path):
-    target_dataset =[]   
+def extract_fileset_stats(source_path):
+    fileset_stats =[]   
     format_string = "%d-%m-%Y_%H:%M:%S.%f"
     hl7_files_list = sorted_directory_listing_with_os_listdir(source_path)
     first_line = True
@@ -70,6 +70,7 @@ def extract_asset(source_path):
             nb_item = len(hl7_obj.segments(segment))
             segments_nb[segment] = nb_item 
 
+
         msh_segment = hl7_obj.segment('MSH')
         msg_ts = msh_segment[10][0]
 
@@ -78,15 +79,17 @@ def extract_asset(source_path):
         data_vector['delta_ms'] =  delta_ms
         for elm in segments_nb:
             data_vector[elm] =  segments_nb[elm]
-        target_dataset.append(data_vector)
-    return target_dataset
+        fileset_stats.append(data_vector)
 
-def analyse_stats(dataset, in_path):
+
+    return fileset_stats
+
+def display_stats(fileset_stats, in_path):
 
         st.title(f'JSON Data Statistics for inpath:{in_path}  ')
         
         # Convert to DataFrame
-        df = pd.json_normalize(dataset)
+        df = pd.json_normalize(fileset_stats)
         
         # Display raw data
         st.subheader("Raw Data")
@@ -110,7 +113,7 @@ def analyse_stats(dataset, in_path):
 ## Start streamit logic 
 directory = st.text_input("Enter a valid path to the HL7 files directory")
 if directory and os.path.isdir(directory):
-    dataset= extract_asset(directory)
-    analyse_stats(dataset, directory)
+    fileset_stats= extract_fileset_stats(directory)
+    display_stats(fileset_stats, directory)
 else:
     st.warning("Veuillez entrer un chemin de répertoire valide.")
